@@ -8,7 +8,7 @@ const temp = document.querySelector(".temp")
 const humidity = document.querySelector(".humidity")
 const wind = document.querySelector(".wind")
 
-const apiKey = openWeatherMapKey; // Replace your open weather map key
+const apiKey = openWeatherMapKey; // Replace with your open weather map token
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 async function checkWeather(city){
